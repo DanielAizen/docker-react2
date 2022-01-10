@@ -2,9 +2,9 @@
 
 This project was created to develop Docker skills .
 
-## Available Scripts
+## Things to consider
 
-Testing:
+In case I want to deploy docker to EBS - first what needs to be done is to setup the env (98-101) *for future reference*
 
 ### `npm start`
 

@@ -13,7 +13,8 @@ RUN npm run build
 #/app/build <-- all the important stuff
 
 FROM nginx
-
+#expose is a way to communicate 
+EXPOSE 80
 ## copy from another phase, which folder, to where
 COPY --from=builder /app/build usr/share/nginx/html
 
